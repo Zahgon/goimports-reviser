@@ -17,8 +17,4 @@ type common struct {
 	namedProject []string
 }
 
-func (c *common) defaultSorting() [][]string {
-	return [][]string{
-		c.std, c.namedStd, c.general, c.namedGeneral, c.company, c.namedCompany, c.project, c.namedProject,
-	}
-}
+func (c *common) defaultSorting() [][]string { _ = "STUB: not implemented"; return nil }

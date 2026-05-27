@@ -2,10 +2,12 @@
 // It will help you to keep your code cleaner.
 //
 // Example:
+//
 //	goimports-reviser -project-name github.com/incu6us/goimports-reviser -file-path ./reviser/reviser.go -rm-unused
 //
 // Input:
-// 	import (
+//
+//	import (
 //		"log"
 //
 //		"github.com/incu6us/goimports-reviser/testdata/innderpkg"
@@ -13,7 +15,7 @@
 //		"bytes"
 //
 //		"golang.org/x/exp/slices"
-// 	)
+//	)
 //
 // Output:
 //
@@ -30,6 +32,5 @@
 //
 // More:
 //
-// 	goimports-reviser -h
-//
+//	goimports-reviser -h
 package main
